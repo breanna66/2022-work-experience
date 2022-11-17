@@ -25,7 +25,7 @@ body {
  *******************************/
 .navigation {
   display: flex;
-  background-color: #6e46ae;
+  background-color: lightpink;
 }
 
 .navigation ul {
@@ -34,7 +34,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color:black
+;
 }
 
 .navigation li {
@@ -47,7 +48,7 @@ body {
 }
 
 .navigation li.active {
-  background-color: black;
+  background-color: lightpink;
 }
 
 .navigation a {
@@ -63,4 +64,21 @@ body {
  *******************************/
 .main {
   padding: 20px;
+}
+
+p {
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: lightpink;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
 }

@@ -16,17 +16,11 @@
 }
 
 .work-time {
-  /* 
-   * Add some background color and any other decorative means
-   * to make it visually different from break-time
-   */
+   background-color:lightpink
 }
 
 .break-time {
-  /* 
-   * Add some background color and any other decorative means
-   * to make it visually different from work-time
-   */
+ background-color: lightgreen;
 }
 
 .hidden {

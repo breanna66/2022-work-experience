@@ -1,4 +1,4 @@
-/* Center all the elements with these class names */
+
 .clock,
 .display-panel,
 .display,
@@ -10,7 +10,6 @@
 }
 
 .clock {
-  /* Shrink this element so it only just fits its contents and no bigger or smaller */
   width: fit-content;
   padding: 20px;
   border: 1px solid #333;
@@ -18,9 +17,9 @@
 }
 
 .display-panel {
-  width: 150px;
+  width: 300px;
   padding: 5px;
-  background: #333;
+  background: lightpink;
 }
 
 .display {
@@ -29,4 +28,20 @@
 
 .divider {
   width: 10px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: lightpink;
+}
+
+p {
+  text-align: left;
+  letter-spacing: 3px;
 }
